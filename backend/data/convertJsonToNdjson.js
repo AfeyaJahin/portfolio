@@ -8,7 +8,6 @@ const convertToNDJSON = (sourceFilePath, targetFilePath) => {
 };
 
 // Convert educationData.json to NDJSON
-convertToNDJSON('./data/educationData.json', './data/educationData.ndjson');
-
-// Convert experienceData.json to NDJSON
-convertToNDJSON('./data/experienceData.json', './data/experienceData.ndjson');
+convertToNDJSON('./educationData.json', './educationData.ndjson');
+// Convert projectsData.json to NDJSON
+convertToNDJSON('./projectsData.json', './projectsData.ndjson');

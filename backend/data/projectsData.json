@@ -1,0 +1,84 @@
+[
+    {
+      "name": "Android personal finance management app (Money_tracker)",
+      "date": "HackHolyoke 2022",
+      "teamSize": 3,
+      "Award": "Winner Finance track",
+      "description": [
+        "Programmed app using Java, Android SDK that categorizes and visualizes income/spending on different types of graphs",
+        "Authenticated users using Firebase, and stored user data in real time",
+        "Utilized Python, deep learning concepts, and MLKit for detecting text from bounding boxes in receipts",
+        "Extracted strings using Tesseract model from the specified boxes and post-processed using Regex parsers to filter out artifacts"
+      ],
+      "skills": ["Java", "Android SDK", "Firebase", "Python", "MLKit", "Regex", "Tesseract"],
+      "imageUrl": "https://portfolioasset.s3.us-east-2.amazonaws.com/projects/moneytracker.png"
+    },
+    {
+      "name": "Multi-platform travel management app (itimoney)",
+      "date": "TechTogether Boston 2022",
+      "teamSize": 3,
+      "Award": "Winner Data Science Track",
+      "description": [
+        "Developed interface using Flutter and Dart for an app that helps track finances while travelling",
+        "Parsed the data fetched from CapitalOne API into JSON and visualized the data in a graph using Python",
+        "Prototyped the functionalities of app using Figma and designed using Canva"
+      ],
+      "skills": ["Flutter", "Dart", "CapitalOne API", "Python", "Figma", "Canva"],
+      "imageUrl": "https://portfolioasset.s3.us-east-2.amazonaws.com/projects/itimoney.png"
+    },
+    {
+      "name": "Android app for donation (CareBuddy)",
+      "date": "HackHolyoke 2020",
+      "teamSize": 4,
+      "Award": "1st Place general track",
+      "description": [
+        "Launched an android native app that uses pre-built functionalities making the donation process easier for donor and donee",
+        "Utilized Java, Android SDK, SQL for data management and Firebase for user authentication and real-time data storage"
+      ],
+      "skills": ["Java", "Android SDK", "SQL", "Firebase"],
+      "imageUrl": null
+    },
+    {
+      "name": "IOS app using custom backend server (Instagram Clone)",
+      "date": "November 2021",
+      "teamSize": null,
+      "Award": null,
+      "description": [
+        "Utilized Swift, UIKit, Cocoa Touch to make a clone of Instagram with a global photos feed",
+        "Implemented Parse and Back4app for a custom-configured backend allowing users to post photos and add comments",
+        "Queried Parse for posts, likes, and comments, displaying them in a table view using auto layout"
+      ],
+      "skills": ["Swift", "UIKit", "Cocoa Touch", "Parse", "Back4app"],
+      "imageUrl": null
+    },
+    {
+      "name": "Bike Rental Web Application",
+      "date": "April 2023",
+      "teamSize": null,
+      "Award": null,
+      "description": [
+        "Deployed a web app crafted with Embedded Ruby templates, CSS, and JavaScript for the front-end, and Ruby on Rails MVC framework with MySQL database for the back-end, hosted on Heroku",
+        "Integrated Google Maps API for interactive map and station locator and Devise & Omniauth for (third-party) authentication",
+        "Delivered key features including streamlined rental process, searchable FAQ page, profile page with rental history, Google Translate for multi-language support, and service request option to enhance user experience",
+        "Managed the project through Agile methodology and Scrum, leading to continuous improvements and successful iterations"
+      ],
+      "skills": ["Embedded Ruby templates", "CSS", "JavaScript", "Ruby on Rails", "MySQL", "Heroku", "Google Maps API", "Devise", "Omniauth", "Agile", "Scrum"],
+      "imageUrl": "https://portfolioasset.s3.us-east-2.amazonaws.com/projects/valetbike.png",
+      "link": "https://gliders.herokuapp.com"
+    },
+      
+    {
+      "name": "Spotify Social web application",
+      "date": "May 2023",
+      "teamSize": null,
+      "Award": null,
+      "description": [
+        "Engineered a single-page application with React.js, designing dynamic components to render user-specific data, such as top songs and artists, fetched directly from the Spotify API",
+        "Leveraged Express.js in constructing a backend infrastructure, managing API and database interactions initiated by user requests from the React frontend, ensuring seamless client-server communication",
+        "Deployed Firebase for real-time data storage and retrieval, facilitating essential features such as user profile management, interactive social forums, and the ability to query for specific forums by name"
+      ],
+      "skills": ["React.js", "Express.js", "Firebase", "Spotify API"],
+      "imageUrl": null
+    }
+  ]
+  

@@ -9,8 +9,9 @@ const educationSchema = new mongoose.Schema({
   endYear: Date,
   courses: [String],
   honors: [String],
+  skills: [String],
   activitiesSocieties: [String],
-  grades: String,
+  GPA: Number,
   programs: [{
     programName: String,
     description: String,

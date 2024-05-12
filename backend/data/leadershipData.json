@@ -1,0 +1,43 @@
+[
+    {
+      "position": "President & Founder",
+      "organization": "Girls Who Code Chapter MHC",
+      "startDate": "April 2022",
+      "endDate": "May 2024",
+      "description": [
+        "Recruited over 200 members within 6 months.",
+        "Led a team of 9 eboard members in facilitating 12+ events/workshops per semester, bolstering community engagement, and advancing skills and professional development.",
+        "Launched a technical interview program, elevating interview confidence for 86% of participants, enhancing career readiness.",
+        "Led coding projects and monthly technical challenges, participated in hackathons with members to build technical skills."
+        
+      ],
+      "skills": ["Leadership", "Python", "Event Management", "Program Development", "Communication", "Organization Skills", "Public Speaking"],
+      "imageUrl": "https://portfolioasset.s3.us-east-2.amazonaws.com/leadership/gwc.png"
+    },
+    {
+      "position": "Full-Stack Developer",
+      "organization": "Computer Science Society",
+      "startDate": "January 2022",
+      "endDate": "May 2024",
+      "description": [
+        "Collaborate in a team of 4 to develop a community-focused web application using the MERN stack, catering to over 200 students.",
+        "Maintain the website with resources, ensuring an optimal user experience by monitoring performance and consistent feedback."
+      ],
+      "skills": ["MERN Stack", "Web Development", "Collaboration"],
+      "imageUrl": "https://portfolioasset.s3.us-east-2.amazonaws.com/leadership/css.png"
+    },
+    {
+      "position": "Senator",
+      "organization": "Mount Holyoke Student Government Association",
+      "startDate": "Sep 2020",
+      "endDate": "Aug 2021",
+      "description": [
+        "Advocated for the interests of my constituents to the SGA by collaborating with various departments on campus.",
+        "Communicated concerns or suggestions from international students to the SGA as part of the international students committee.",
+        "Promoted SGA as a resource students can utilize."
+      ],
+      "skills": ["Advocacy", "Collaboration", "Communication"],
+      "imageUrl": "https://portfolioasset.s3.us-east-2.amazonaws.com/leadership/SGA.jpeg"
+    }
+  ]
+  

@@ -6,6 +6,10 @@ const connectDB = require('./config/db'); // Ensure you have this file to handle
 
 // Import routes
 const educationRoutes = require('./routes/education'); // Adjust the path as necessary
+const employmentRoutes = require('./routes/employment');
+const leadershipRoutes = require('./routes/leadership');
+const projectRoutes = require('./routes/project');
+
 
 const app = express();
 connectDB(); // Connect to the MongoDB database
@@ -32,6 +36,9 @@ app.use(cors());
 
 // Use the education routes with the base path '/api/education'
 app.use('/api/education', educationRoutes);
+app.use('/api/employment', employmentRoutes);
+app.use('/api/leadership', leadershipRoutes);
+app.use('/api/projects', projectRoutes);
 
 // Basic route for the homepage
 app.get('/', (req, res) => {

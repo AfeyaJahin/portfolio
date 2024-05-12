@@ -1,20 +1,24 @@
 [
     {
-      "imageUrl": "https://drive.google.com/uc?export=view&id=1vCEy-Lm2Wp0fyNQYiJC5JWlyNshclUav",
+      "imageUrl": "https://portfolioasset.s3.us-east-2.amazonaws.com/education/Mount Holyoke College.png",
       "institution": "Mount Holyoke College",
       "degree": "Bachelor's degree",
       "fieldOfStudy": "Computer Science",
       "startYear": "2020-01-01",
       "endYear": "2024-01-01",
-      "courses": ["Algorithms",
-      "Data Structures",
+      "courses": ["Algorithms (Python,C)",
+      "Data Structures(Python)",
       "Computer Vision (Python)",
       "Operating Systems (C, Python)",
       "Computing Systems (C)",
-      "Software Design and Development",
-      "Object Oriented Programming (Java)"
+      "Software Design and Development(Java)",
+      "Object Oriented Programming (Java)",
+      "Web Programming (JavaScript, MERN Stack)",
+      "Machine Learning (Python)",
+      "Robotics Planning Algorithms (C++)"
        ],
-      "honors": [],
+      "honors": ["Mildred L Sanderson Prize for Math Excellence", "21st Century Scholar for Leadership", "Bernice Mclean Award for Biology"],
+      "GPA": 3.94,
       "activitiesSocieties": [
         "Girls Who Code (President)",
         "Computer Science Society (Website Team)",
@@ -25,7 +29,7 @@
       "grades": null
     },
     {
-    "imageUrl": "https://drive.google.com/uc?export=view&id=1VmceErtH11MsdJheiHcQlpTrWL4bYl_L",
+    "imageUrl": "https://portfolioasset.s3.us-east-2.amazonaws.com/education/Smith College.jpeg",
     "institution": "Smith College",
 
     "degree": "Five College Cross Registration",
@@ -35,7 +39,7 @@
     "courses": ["Software Engineering (Ruby on Rails)"]
     },
     {
-      "imageUrl": "https://drive.google.com/uc?export=view&id=1lRdbCYOZgdHNniA-Dd5Ma0OcWJQPVYW3",
+      "imageUrl": "https://portfolioasset.s3.us-east-2.amazonaws.com/education/CodePath.jpeg",
       "institution": "Codepath",
       "degree": "Course Participant",
       "fieldOfStudy": "iOS Development",
@@ -66,7 +70,7 @@
 
 
     {
-        "imageUrl": "https://drive.google.com/uc?export=view&id=1CwerY0zgLY8qnzuz7e1gN4JBSfjTwY92",
+        "imageUrl": "https://portfolioasset.s3.us-east-2.amazonaws.com/education/AI4ALL.png",
         "institution": "AI4ALL",
         "degree": "College Pathways Participant",
         "fieldOfStudy": "AI and Machine Learning",

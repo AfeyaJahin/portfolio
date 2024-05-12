@@ -1,0 +1,75 @@
+[
+    {
+        "company": "Fama Technologies Inc.",
+        "position": "Software Engineering Intern",
+        "startDate": "Jun 2023",
+        "endDate": "Aug 2023",
+        "location": "Remote",
+        "description": [
+          "Developed and deployed a dynamic billing application using React.js, TypeScript, and Tailwind CSS, facilitating efficient tracking and management of client subscriptions, payments, and financials.",
+          "Engineered robust backend API services using Python employing RESTful principles to enhance conditional query handling and data control.",
+          "Optimized client-side interactions through strategic use of React’s context and state management capabilities, enhancing the application's responsiveness.",
+          "Instituted robust permission controls within the application infrastructure, safeguarding sensitive data and restricting access to authorized administrative personnel.",
+          "Employed Kanban for continuous delivery and task prioritization, successfully transitioning the billing system to production with assured performance and robust security."
+        ],
+        "skills": ["React.js", "TypeScript", "Tailwind CSS", "Python", "REST", "React Query"],
+        "imageUrl": "https://portfolioasset.s3.us-east-2.amazonaws.com/employment/fama.jpeg"
+    },
+    {
+      "company": "Mount Holyoke College",
+      "position": "Data Structures Teacher’s Assistant",
+      "startDate": "Sep 2021",
+      "endDate": "Dec 2023",
+      "location": "South Hadley, MA, USA",
+      "description": [
+        "Lead 3 weekly TA/Lab sessions, teaching data structures & algorithms concepts to over 100 students and mentoring 12-15 students per semester, fostering peer collaboration and continuous improvement, culminating in a 12% rise in pass rates.",
+        "Enhance students’ code proficiency and algorithmic comprehension through meticulous debugging and troubleshooting of key concepts, significantly elevating their ability to write clean, efficient code."
+      ],
+      "skills": ["Data Structures", "Algorithms", "Debugging"],
+      "imageUrl": "https://portfolioasset.s3.us-east-2.amazonaws.com/education/Mount Holyoke College.png"
+
+    },
+    {
+      "company": "Meta",
+      "position": "Above and Beyond Computer Science Fellow",
+      "startDate": "Aug 2022",
+      "endDate": "Dec 2022",
+      "location": "Remote",
+      "description": [
+        "Solved weekly Hackerrank challenges focused on Data Structures and Algorithms using Python.",
+        "Brainstormed with peers to refine algorithms, emphasizing optimal performance in speed and memory efficiency.",
+        "Engaged in screen-cast-led workshops by Meta engineers, enhancing understanding of complex data structures and their practical applications."
+      ],
+      "skills": ["Python", "Hackerrank", "Data Structures", "Algorithms"],
+      "imageUrl": "https://portfolioasset.s3.us-east-2.amazonaws.com/employment/Meta.jpeg"
+    },
+    {
+      "company": "JP Morgan Chase",
+      "position": "Work Prep Program Fellow",
+      "startDate": "May 2022",
+      "endDate": "May 2022",
+      "location": "Remote",
+      "description": [
+        "Attended technical and professional development workshops led by senior leaders and engineers at JPMorgan Chase.",
+        "Prototyped a mental health app, 'Upside,' leveraging design thinking to create technology that supports social good."
+      ],
+      "skills": ["Design Thinking", "Prototyping", "Workshops"],
+      "imageUrl": "https://portfolioasset.s3.us-east-2.amazonaws.com/employment/jpmorgan.jpeg"
+    },
+    {
+      "company": "CodePath",
+      "position": "iOS Development Tech Fellow",
+      "startDate": "Oct 2021",
+      "endDate": "Apr 2022",
+      "location": "Remote",
+      "description": [
+        "Developed 4 iOS applications using Swift, RESTful APIs, Parse backend integration, UIKit dynamics, and network handling with Alamofire.",
+        "Reinforced iOS development concepts through challenging labs and assignments, from a simple tip calculator to a fully functional Instagram clone.",
+        "Led a cohort of 19 students through the curriculum, emphasizing practical application of iOS engineering principles."
+      ],
+      "skills": ["Swift", "RESTful APIs", "Parse", "UIKit", "Alamofire", "iOS Development"],
+      "imageUrl": "https://portfolioasset.s3.us-east-2.amazonaws.com/education/CodePath.jpeg"
+      
+    }
+  ]
+  
