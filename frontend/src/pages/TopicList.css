@@ -1,0 +1,51 @@
+/* TopicList.css */
+.topic-list {
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    background-color: rgba(219,219,219,1); /* Light grey background */
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto; /* Centers the topic list */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .category {
+    background-color:rgba(219,219,219,1); /* White background for each category */
+    border-radius: 4px;
+    padding: 50px;
+    margin-bottom: 0px;
+    padding: 15px; /* Padding inside each category box */
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05); Subtle shadow for each category */
+  }
+  
+  .category-title {
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    color: #D27378; /* Dark grey color for titles */
+    margin-bottom: 10px;
+    font-size: 1.25em; /* Larger font size for titles */
+  }
+  
+  .items-list {
+    list-style-type: none;
+    padding-left: 0; /* Removes default padding */
+  }
+  
+  .item {
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px 10px; /* Horizontal padding for better spacing */
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    color: #555555; /* Darker text for items for better readability */
+    font-size: 0.95em; /* Slightly smaller font size for items */
+  }
+  
+  .item:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
+  }
+  
+  /* You can add more styling or modify the existing ones to better match the provided design */
+  
