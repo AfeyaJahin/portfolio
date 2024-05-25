@@ -5,10 +5,10 @@
     "node": "20.x"
   },
   "scripts": {
-    "dev": "concurrently \"cd frontend && npm run dev\" \"nodemon server.js\"",
+    "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm start\"",
     "build": "cd frontend && npm run build",
     "heroku-postbuild": "npm run build",
-    "start": "concurrently \"cd frontend && serve -s dist\" \"nodemon server.js\""
+    "start": "concurrently \"cd frontend && serve -s dist\" \"cd backend && npm start\""
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
