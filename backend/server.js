@@ -12,6 +12,7 @@ const projectRoutes = require('./routes/project');
 
 
 const app = express();
+
 connectDB(); // Connect to the MongoDB database
 
 const port = process.env.PORT || 3005;
@@ -32,7 +33,12 @@ app.use(express.urlencoded({ extended: true })); // For parsing application/x-ww
 
 // Use CORS for handling cross-origin requests, if you're calling your API from a different domain
 const cors = require('cors');
-app.use(cors());
+
+app.use(cors({
+  origin: 'https://afeyajahin.netlify.app/', // Replace with your frontend URL
+  methods: 'GET,POST,PUT,DELETE',
+  credentials: true
+}));
 
 // Use the education routes with the base path '/api/education'
 app.use('/api/education', educationRoutes);
