@@ -1,16 +1,16 @@
 {
     "version": 2,
     "functions": {
-        "backend/**/*.js": {
-            "runtime": "@vercel/node",
-            "maxDuration": 60
-        }
+      "backend/**/*.js": {
+        "runtime": "@vercel/node@18.0.0",
+        "maxDuration": 60
+      }
     },
     "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/backend/index.js"
-        }
+      {
+        "src": "/(.*)",
+        "dest": "/backend/index.js"
+      }
     ]
-}
+  }
   
