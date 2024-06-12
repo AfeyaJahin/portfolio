@@ -1,16 +1,15 @@
 {
     "version": 2,
-    "functions": {
-      "/**/*.js": {
-        "runtime": "@vercel/node@20.x",
-        "maxDuration": 60
-      }
-    },
     "routes": [
       {
         "src": "/(.*)",
         "dest": "/index.js"
       }
-    ]
+    ],
+    "functions": {
+      "/**/*": {
+        "maxDuration": 60
+      }
+    }
   }
   
