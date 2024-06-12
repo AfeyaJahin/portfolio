@@ -34,10 +34,8 @@ app.use(express.urlencoded({ extended: true })); // For parsing application/x-ww
 // Use CORS for handling cross-origin requests, if you're calling your API from a different domain
 const cors = require('cors');
 
-const cors = require('cors');
-
 app.use(cors({
-  origin: /\.vercel\.app$/,
+  origin: ['https://afeyajahin.vercel.app/education', 'https://afeyajahin.vercel.app/experience'], // Replace with your frontend URL
   methods: 'GET,POST,PUT,DELETE',
   credentials: true
 }));
