@@ -1,15 +1,15 @@
 {
     "version": 2,
     "functions": {
-      "backend/**/*.js": {
-        "runtime": "@vercel/node@18.0.0", // Specify the version of the runtime
+      "/**/*.js": {
+        "runtime": "@vercel/node@20.x",
         "maxDuration": 60
       }
     },
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/backend/index.js"
+        "dest": "/index.js"
       }
     ]
   }
