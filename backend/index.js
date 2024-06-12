@@ -35,7 +35,7 @@ app.use(express.urlencoded({ extended: true })); // For parsing application/x-ww
 const cors = require('cors');
 
 app.use(cors({
-  origin: ['https://afeyajahin.netlify.app/education','https://afeyajahin.netlify.app/employment','https://afeyajahin.netlify.app/resources','https://afeyajahin.vercel.app/education'], // Replace with your frontend URL
+  origin: ['https://afeyajahin.netlify.app/education','https://afeyajahin.netlify.app/experience','https://afeyajahin.netlify.app/resources','https://afeyajahin.vercel.app/education'], // Replace with your frontend URL
   methods: 'GET,POST,PUT,DELETE',
   credentials: true
 }));
