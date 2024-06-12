@@ -11,7 +11,7 @@ const Education = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:3005/api/education');
+        const response = await fetch('https://afeyajahinbackend.vercel.app/api/education');
         if (response.ok) {
           const data = await response.json();
           setEducations(data);
