@@ -34,9 +34,9 @@ const Experience = () => {
   // Fetch data from your backend
   const fetchData = async () => {
     try {
-      const employmentResponse = await fetch('http://localhost:3005/api/employment');
-      const projectsResponse = await fetch('http://localhost:3005/api/projects');
-      const leadershipResponse = await fetch('http://localhost:3005/api/leadership');
+      const employmentResponse = await fetch('https://afeyajahin.vercel.app/api/employment');
+      const projectsResponse = await fetch('https://afeyajahin.vercel.app/api/projects');
+      const leadershipResponse = await fetch('https://afeyajahin.vercel.app/api/leadership');
       console.log(leadershipResponse.ok);
       if (employmentResponse.ok && projectsResponse.ok && leadershipResponse.ok) {
         setEmploymentData(await employmentResponse.json());

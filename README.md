@@ -47,7 +47,7 @@ ThThis project is a comprehensive portfolio website designed using the MERN (Mon
 
 6. **Run the Backend Server** (Nodemon will automatically restart the server on file changes):
    ```
-   nodemon server.js
+   nodemon index.js
    ```
 
 ### Frontend Setup
@@ -68,7 +68,7 @@ ThThis project is a comprehensive portfolio website designed using the MERN (Mon
    ```
 
 4. **Access the Application**:
-   - Backend: [http://localhost:3005/](http://localhost:3005/)
+   - Backend: [http://localhost:3005/](https://afeyajahin.vercel.app/)
    - Frontend: [http://localhost:5173/](http://localhost:5173/)
 
 ---
