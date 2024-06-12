@@ -35,7 +35,7 @@ app.use(express.urlencoded({ extended: true })); // For parsing application/x-ww
 const cors = require('cors');
 
 app.use(cors({
-  origin: 'https://afeyajahin.vercel.app/', // Replace with your frontend URL
+  origin: 'https://afeyajahin.vercel.app', // Replace with your frontend URL
   methods: 'GET,POST,PUT,DELETE',
   credentials: true
 }));
