@@ -86,7 +86,8 @@ app.use(cors({
   origin: [
     'https://afeyajahin.vercel.app',
     'https://afeyajahin.vercel.app/experience',
-    'https://afeyajahin.vercel.app/education'
+    'https://afeyajahin.vercel.app/education',
+    'https://afeyajahin.vercel.app/resource'
   ], // Replace with your frontend URLs
   methods: 'GET,POST,PUT,DELETE',
   credentials: true
