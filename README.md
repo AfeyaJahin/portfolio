@@ -6,7 +6,7 @@
 
 ## Introduction
 
-ThThis project is a comprehensive portfolio website designed using the MERN (MongoDB, Express, React, Node) stack. It encapsulates my professional timeline, educational endeavors, and serves as a resource hub for technical interview preparation. The website is a testament to my journey in software development, showcasing my experiences, projects, leadership roles, and academic ventures. The design is inspired from Shan Jiang
+This project is a comprehensive portfolio website designed using the MERN (MongoDB, Express, React, Node) stack. It encapsulates my professional timeline, educational endeavors, and serves as a resource hub for technical interview preparation. The website is a testament to my journey in software development, showcasing my experiences, projects, leadership roles, and academic ventures. The design is inspired from Shan Jiang
 
 ---
 
